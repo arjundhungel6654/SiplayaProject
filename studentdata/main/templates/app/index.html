@@ -1,0 +1,657 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+Index
+{% endblock title %}
+{% block content %}
+<!-- ***** Main Banner Area Start ***** -->
+<section class="section main-banner" id="top" data-section="section1">
+  <video autoplay muted loop id="bg-video">
+    <source src="{% static 'images/video-motion.mp4' %}" type="video/mp4" />
+  </video>
+  <div class="video-overlay header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="caption">
+            <h6>Hello Students</h6>
+            <h2>Welcome to Educational Project</h2>
+            <p>This is an Online Learning Platform where a student can explore their knowledge and get Enroll through
+              the website
+              <a rel="nofollow" href="https://nepaledu.org/" target="_blank">Online website</a>. This is a Bootstrap
+              layout.<a rel="nofollow" href="#" target="_blank"></a>.
+            </p>
+            <div class="main-button-red">
+              <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ***** Main Banner Area End ***** -->
+
+<section class="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="owl-service-item owl-carousel">
+
+          <div class="item">
+            <div class="icon">
+              <img src="{% static 'images/service-icon-01.png'%}" alt="">
+            </div>
+            <div class="down-content">
+              <h4>Best Education</h4>
+              <p>I think education should be given to us so that we can live out life in the best possible way a human
+                should.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="{% static 'images/service-icon-02.png' %}" alt="">
+            </div>
+            <div class="down-content">
+              <h4>Best Teachers</h4>
+              <p>They help us learn new things and teach moral values to lead a good life and become better individuals.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="{% static 'images/service-icon-03.png' %}" alt="">
+            </div>
+            <div class="down-content">
+              <h4>Best Students</h4>
+              <p>Our essential characteristic of a successful student is one takes the initiative to seek out support
+                when needed and to incorporate academic different academic strategies to enhance the learning process.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="{% static 'images/service-icon-02.png' %}" alt="">
+            </div>
+            <div class="down-content">
+              <h4>Student Benifits</h4>
+              <p>An online resource is a source of information such as web pages or documents that we can find browsing
+                the internet. As you can imagine, the advantage of using this type of resources is their availability
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <img src="{% static 'images/service-icon-03.png' %}" alt="">
+            </div>
+            <div class="down-content">
+              <h4>Payement sources </h4>
+              <p>People don't have to wait for banks to clear their checks so that they can access the money. For
+                sellers, it saves a great deal of time since they don't have to waste time printing and mailing bills.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="upcoming-meetings" id="meetings">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-heading" id="CollegeList">
+          <h2>COLLEGE LIST AND SELECTION</h2>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="categories">
+          <h4>LIST OF INSTITUTE</h4>
+          <ul>
+            <li><a href="https://sipalaya.com/">SIPALAYA INFOTECH</a></li>
+            <li><a href="https://www.janamaitri.edu.np/">JANAMAITRI MULTIPLE CAMPUS</a></li>
+            <li><a href="https://kist.edu.np/">KIST COLLEGE AND HSS</a></li>
+            <li><a href="https://ktmmodelcollege.edu.np/">KATHMANDU MODEL COLLEGE(KMC)</a></li>
+            <li><a href="https://texasintl.edu.np/">TEXAS INTERNATIONAL COLLEGE</a></li>
+          </ul>
+          <div class="main-button-red">
+            <a href="https://edusanjal.com/college/district/kathmandu/">LIST</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <div class="price">
+                  <span>RS 250000</span>
+                </div>
+                <a href="https://sipalaya.com/"><img src="{% static 'images/sipalaya.jpg' %}" height="200px"
+                    alt="New Lecturer Meeting"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Apr <span>25</span></h6>
+                </div>
+                <a href="coursedetails.html">
+                  <h4>Sipalaya Info Tech</h4>
+                </a>
+                <p>This is an institute of IT Communication and technology <br>Which deals with major course like DJANGO
+                  WITH PYTHON(full stack),NODE JS ,UI/UX DESIGN,APP DEVELOPMENT,AI</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <div class="price">
+                  <span>Rs 500000-Rs 600000</span>
+                </div>
+                <a href="https://ktmmodelcollege.edu.np/"><img src="{% static 'images/kmc.jpg' %}" height="262px"
+                   alt="Online Teaching"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Apr<span>15</span></h6>
+                </div>
+                <a href="coursedetails.html">
+                  <h4>Kathmandu Model College(KMC)</h4>
+                </a>
+                <p>This is an best college in kathmandu <br>which deals with courses like CA,LAWYERS,BBA,BBS,BSW,MA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <div class="price">
+                  <span>Rs 450000</span>
+                </div>
+                <a href="https://www.janamaitri.edu.np/"><img src="{% static 'images/jmc.jpg' %}" height="300px"
+                  Higher Education></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>Apr <span>10</span></h6>
+                </div>
+                <a href="coursedetails.html">
+                  <h4>Janamaitri Multiple Campuss</h4>
+                </a>
+                <p>This campus is listed on top in kathmandu valley<br>which holds the course like BBA,BICT,BBS,MBS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="meeting-item">
+              <div class="thumb">
+                <div class="price">
+                  <span>Rs 500000</span>
+                </div>
+                <a href="https://kist.edu.np/"><img src="{% static 'images/kist.jpg' %}" alt="Student Training"></a>
+              </div>
+              <div class="down-content">
+                <div class="date">
+                  <h6>mar <span>15</span></h6>
+                </div>
+                <a href="coursedetails.html">
+                  <h4>KIST College And HSS </h4>
+                </a>
+                <p>This is an college of kathmandu institute of science and technology<br>with includes the major course
+                  of Microbiology,BIT,MIT,+2 SCIENCE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="apply-now" id="apply">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 align-self-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="item">
+              <h3>APPLY FOR BACHELOR DEGREE</h3>
+              <p> Hello Student You Can Enroll Your Respected Subject From the given Link .</p>
+              <div class="main-button-red">
+                <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="item">
+              <h3>APPLY FOR MASTER DEGREE</h3>
+              <p>Hi ! Student You Can Enroll Your Respected Subject From the given Link</p>
+              <div class="main-button-yellow">
+                <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="accordions is-first-expanded">
+          <article class="accordion">
+            <div class="accordion-head">
+              <span>THIS IS AN EDUCATIONAL STUDENT ENROLLMENT</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>This is an educational enrollment website of students where they can access the different course
+                  structure with
+                  institution. <a>
+
+
+              </div>
+            </div>
+          </article>
+          <article class="accordion">
+            <div class="accordion-head">
+              <span>HTML CSS Bootstrap Layout</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>They can be used to create well structured and attractive web layouts using HTML, CSS and Bootstrap
+                  together. HTML (HyperText Markup Language)
+                  serves as the backbone of a webpage, defining its structure and defining elements such as headings,
+                  paragraphs, and images. CSS (Cascading Style Sheets) adds presentation to these elements, formatting
+                  them and
+                  giving them attributes such as colors, typography, and whitespace.<br><br>
+                  Bootstrap is a widely used and very popular front-end framework that consists of a number of
+                  ready-made HTML,
+                  CSS, and JS components to create responsive, mobile first layouts easily. Some such features are a
+                  grid system
+                  for layout, utility classes for rapid styling, and components
+                  like navbars and modals for rapid assembly of an application’s UI.</p>
+              </div>
+            </div>
+          </article>
+          <article class="accordion">
+            <div class="accordion-head">
+              <span>Please tell your friends</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>Our Educational learning courses cover a wide range of subjects such as BCA, BIT, BBS, BICT, BSW, MBS
+                  and MD, to help students reach their academic and professional goals. Such programs
+                  are designed to give an in-depth knowledge, practical skills and career-oriented programs in diverse
+                  fields.
+                  <br><br>
+                  Share the word about our courses if you know anyone who enjoys studying and developing his career.
+                  Lets spread
+                  the word about quality education that can change future of your friends. Grow with us—share the
+                  opportunity today!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="accordion last-accordion">
+            <div class="accordion-head">
+              <span>Share this to your colleagues</span>
+              <span class="icon">
+                <i class="icon fa fa-chevron-right"></i>
+              </span>
+            </div>
+            <div class="accordion-body">
+              <div class="content">
+                <p>Share this: You are receiving this because you signed up for the new comprehensive educational
+                  learning courses designed to be the ARK of your future! You may be planning to get admission in BCA
+                  (Bachelor of Computer Applications), BIT (Bachelor of Information Technology), BBS (Bachelor of
+                  Business Studies), BICT (Bachelor of Information and Communication Technology), BSW (Bachelor of
+                  Social Work), MBS (Master of Business Studies), MD (Doctor of Medicine) etc., we have the course that
+                  suits your needs. Spread the word to your coworkers and friends so they know about these opportunities
+                  to improve their knowledge, skills, and career prospects. With education we can build a better future,
+                  together!</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="our-courses" id="courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-heading">
+          <h2>THE MAJOR COURSES</h2>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="owl-courses-item owl-carousel">
+          <div class="item">
+            <img src="{% static 'images/bict.jpg' %}" alt="Course One" height="150px">
+            <div class="down-content">
+              <h4>BICTE (Bachelor In Information And Communication Technology)</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 300000-350000 (4 yrs)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'images/django.jpg' %}" alt="Course Two">
+            <div class="down-content">
+              <h4>DIPLOMA IN DJANGO WITH PYTHON</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 300000-400000(6 mont)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'images/bca.jpg' %}" alt="">
+            <div class="down-content">
+              <h4>BCA (BACHELOR IN COMPUTER APPLICATION)</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 400000-450000 (4 yrs)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'images/csit.jpg' %}" alt="">
+            <div class="down-content">
+              <h4>CSIT (Bachelor of Engineering in Computer Science and Information Technology )</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 500000-550000 (4 yrs)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'images/bit.jpg' %}" alt="" height="160px">
+            <div class="down-content">
+              <h4>BIT(Bachelor of Information Technology)</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 400000-450000(3 yrs)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="item">
+            <img src="{% static 'images/course-02.jpg' %}" alt="">
+            <div class="down-content">
+              <h4>WEB DESIGN(Full Stack)</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 25000-50000(6 mont)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'images/course-03.jpg' %}" alt="">
+            <div class="down-content">
+              <h4>UI/UX DESIGN</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>15000-25000 (4 mont)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="{% static 'images/course-04.jpg' %}" alt="">
+            <div class="down-content">
+              <h4>APP DEVELOPMENT WITH FLUTTER</h4>
+              <div class="info">
+                <div class="row">
+                  <div class="col-8">
+                    <ul>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="col-4">
+                    <span>Rs 35000-45000(6 month)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</section>
+<section class="our-facts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>A Few Facts About Our Students Enrollment</h2>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="count-area-content percentage">
+                  <div class="count-digit">60</div>
+                  <div class="count-title">Succesed Students</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="count-area-content">
+                  <div class="count-digit">15</div>
+                  <div class="count-title">Current Teachers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="count-area-content new-students">
+                  <div class="count-digit">1050</div>
+                  <div class="count-title">New Students</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="count-area-content">
+                  <div class="count-digit">10</div>
+                  <div class="count-title">Awards</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 align-self-center">
+        <div class="video">
+          <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img
+              src="{% static 'images/graduation1.jpg' %}"
+              alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contact-us" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 align-self-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contact" action="{% url 'index' %}" method="POST">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>Please Register Your Details Here
+                  </h2>
+                </div>
+                <div class="col-lg-4">
+                  <fieldset>
+                    <input name="name" name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-4">
+                  <fieldset>
+                    <input name="email" name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                      placeholder="YOUR EMAIL..." required="">
+                  </fieldset>
+                </div>
+
+                <div class="col-lg-4">
+                  <fieldset>
+                    <input name="subject" name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-4">
+                  <fieldset>
+                    <input name="level" type="text" id="Level" placeholder="LEVEL...*" required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" name="message" type="text" class="form-control" id="message"
+                      placeholder="YOUR MESSAGE..." required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button">Submit Your Data</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="right-info">
+          <ul>
+            <li>
+              <h6>Phone Number</h6>
+              <span>9815025097</span>
+            </li>
+            <li>
+              <h6>Email Address</h6>
+              <span>aaarjun6654@gmail.com</span>
+            </li>
+            <li>
+              <h6>Temporary Address</h6>
+              <span>Kathmandu, Kalimati</span>
+            </li>
+            <li>
+              <h6> Permanent Address</h6>
+              <span>Dhulabari,Jhapa</span>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright @{{date.year}}2025 Edu Enrollment Co., Ltd. All Rights Reserved.
+      <br>Ar Arjun Design:
+  </div>
+</section>
+{% endblock content %}

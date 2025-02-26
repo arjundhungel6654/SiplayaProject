@@ -1,0 +1,148 @@
+{% load static %}
+{% block title %}
+{% endblock title %}
+{% block content %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseDetails</title>
+    <link rel="stylesheet" href="{% static 'css/coursedetails.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>Course Details in Nepal</h1>
+    </header>
+    <main>
+        <form class="form" method="post" action="{% url 'coursedetails' %}">
+            <section class="faculty" id="science">
+                <h2>Faculty of Science</h2>
+                <ul>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                    <li>Biology</li>
+                    <li>Mathematics</li>
+                    <li>Environmental Science</li>
+                    <li>Geology</li>
+                    <li>Computer Science</li>
+                </ul>
+            </section>
+
+            <section class="faculty" id="humanities">
+                <h2>Faculty of Humanities and Social Sciences</h2>
+                <ul>
+                    <li>Sociology</li>
+                    <li>Psychology</li>
+                    <li>Economics</li>
+                    <li>Political Science</li>
+                    <li>Anthropology</li>
+                    <li>History</li>
+                    <li>Geography</li>
+                    <li>Languages and Literature</li>
+                    <li>Mass Communication and Journalism</li>
+                    <li>Social Work</li>
+                </ul>
+            </section>
+            
+            <section class="faculty" id="bba">
+                <h2>Bachelor of Business Administration (BBA)</h2>
+                <ul>
+                    <li>Business Management</li>
+                    <li>Financial Accounting</li>
+                    <li>Marketing Management</li>
+                    <li>Human Resource Management</li>
+                    <li>Business Communication</li>
+                    <li>Organizational Behavior</li>
+                    <li>Operations Management</li>
+                    <li>Business Law</li>
+                    <li>Managerial Economics</li>
+                    <li>Entrepreneurship</li>
+                </ul>
+            </section>
+            
+            <section class="faculty" id="bsw">
+                <h2>Bachelor of Social Work (BSW)</h2>
+                <ul>
+                    <li>Introduction to Social Work</li>
+                    <li>Social Work Practices</li>
+                    <li>Social Welfare Administration</li>
+                    <li>Community Development</li>
+                    <li>Human Rights and Social Justice</li>
+                    <li>Social Research Methods</li>
+                    <li>Child Welfare</li>
+                    <li>Family and Social Work</li>
+                    <li>Social Work in Health Care</li>
+                    <li>Disaster Management</li>
+                </ul>
+            </section>
+            
+            <section class="faculty" id="bict">
+                <h2>Bachelor of Information and Communication Technology (BICT)</h2>
+                <ul>
+                    <li>Introduction to ICT</li>
+                    <li>Web Development</li>
+                    <li>Database Management</li>
+                    <li>Networking and Security</li>
+                    <li>Software Engineering</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Computer Programming</li>
+                    <li>ICT Project Management</li>
+                    <li>Cloud Computing</li>
+                    <li>Mobile Application Development</li>
+                </ul>
+            </section>
+            
+            <section class="faculty" id="bit">
+                <h2>Bachelor of Information Technology (BIT)</h2>
+                <ul>
+                    <li>Introduction to Information Technology</li>
+                    <li>Computer Architecture</li>
+                    <li>Operating Systems</li>
+                    <li>Database Systems</li>
+                    <li>Software Development</li>
+                    <li>Web Technologies</li>
+                    <li>Networking Fundamentals</li>
+                    <li>Information Security</li>
+                    <li>Digital Marketing</li>
+                    <li>Artificial Intelligence</li>
+                </ul>
+            </section>
+            
+
+            <section class="faculty" id="arts">
+                <h2>Faculty of Arts</h2>
+                <ul>
+                    <li>Fine Arts</li>
+                    <li>Music</li>
+                    <li>Dance</li>
+                    <li>Theater Arts</li>
+                    <li>Film Studies</li>
+                </ul>
+            </section>
+
+            <section class="faculty" id="education">
+                <h2>Faculty of Education</h2>
+                <ul>
+                    <li>Curriculum and Instruction</li>
+                    <li>Educational Planning and Management</li>
+                    <li>Educational Psychology</li>
+                    <li>Health Education</li>
+                    <li>Special Needs Education</li>
+                </ul>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <p> 2025 Course Details in Nepal. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+
+{% endblock content %}

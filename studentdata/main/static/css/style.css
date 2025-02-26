@@ -1,0 +1,214 @@
+/* Dark Theme */
+
+
+/* Dark Theme Styling for Background */
+body {
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Section Container */
+.container-fluid {
+    background-color: #1e1e1e;
+    padding: 50px 0;
+}
+
+/* Centering the Title */
+.section-title {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Subtitle Styling */
+.section-title h6 {
+    color: #ffcc00; /* Bright Yellow */
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+/* Main Heading Styling */
+.section-title h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    background: linear-gradient(45deg, #ff5733, #ffcc00, #008cff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    animation: glowText 2s ease-in-out infinite alternate;
+}
+
+/* Glowing Effect Animation */
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 5px #ff5733, 0 0 10px #ff5733, 0 0 15px #ff5733, 0 0 20px #ff5733;
+    }
+    50% {
+        text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00, 0 0 40px #ff5733;
+    }
+    100% {
+        text-shadow: 0 0 5px #008cff, 0 0 10px #008cff, 0 0 15px #008cff, 0 0 20px #ff5733;
+    }
+}
+
+/* Text Shadow for the Subtitle */
+.section-title h6 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for Overall Layout */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .section-title h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .section-title h6 {
+        font-size: 16px;
+    }
+}
+
+/* body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+/* .container-fluid {
+    background-color: #1e1e1e;
+    padding: 50px 0;
+} */
+
+/* Section Title */
+.section-title h6 {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.section-title h1 {
+    color: #ffffff;
+}
+
+/* Team Carousel Styling */
+.team-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Team Item Styling */
+.team-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #2a2a2a;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Hover Effect */
+.team-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(255, 204, 0, 0.8);
+}
+
+/* Image Styling */
+.team-item img {
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+}
+
+/* Image Zoom on Hover */
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Dark Mode for Card */
+.bg-light {
+    background-color: #333333 !important;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Social Icons */
+.team-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.team-item ul li {
+    display: inline;
+}
+
+.team-item ul li a {
+    color: #ffcc00;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Social Icons Hover Effect */
+.team-item ul li a:hover {
+    color: #ff5733;
+    transform: scale(1.2);
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    0% { box-shadow: 0px 0px 5px rgba(255, 204, 0, 0.5); }
+    50% { box-shadow: 0px 0px 20px rgba(255, 204, 0, 1); }
+    100% { box-shadow: 0px 0px 5px rgba(255, 204, 0, 0.5); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-item {
+        width: 90%;
+    }
+}
+
